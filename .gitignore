@@ -1,0 +1,16 @@
+# Reference assets and source originals — not part of the deployed site
+_build/
+_reference/
+assets/originals/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Local notes / docs
+*.docx
+*.doc
+*.pdf
