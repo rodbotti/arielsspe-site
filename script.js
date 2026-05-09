@@ -51,26 +51,15 @@
     if (btn) btn.setAttribute("aria-label", theme === "dark" ? t.themeToLight : t.themeToDark);
   };
 
-  applyTheme(root.getAttribute("data-theme") || "dark");
+  applyTheme(root.getAttribute("data-theme") || "light");
 
   const themeBtn = document.getElementById("themeToggle");
   if (themeBtn) {
     themeBtn.addEventListener("click", () => {
-      const current = root.getAttribute("data-theme") || "dark";
+      const current = root.getAttribute("data-theme") || "light";
       const next = current === "dark" ? "light" : "dark";
       try { localStorage.setItem(STORAGE_KEY, next); } catch (e) {}
       applyTheme(next);
-    });
-  }
-
-  /* React to OS theme change only if user hasn't chosen explicitly */
-  if (window.matchMedia) {
-    const mq = window.matchMedia("(prefers-color-scheme: light)");
-    mq.addEventListener && mq.addEventListener("change", (ev) => {
-      let saved = null;
-      try { saved = localStorage.getItem(STORAGE_KEY); } catch (e) {}
-      if (saved) return;
-      applyTheme(ev.matches ? "light" : "dark");
     });
   }
 

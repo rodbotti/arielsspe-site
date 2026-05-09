@@ -45,7 +45,7 @@ Ariel SSPE Webpage/
 
 ## Sistema de tema (claro / escuro)
 
-- **Detecção inicial**: respeita `prefers-color-scheme` do sistema operacional do visitante.
+- **Default**: claro. Primeira visita sempre carrega no tema claro.
 - **Override manual**: botão sol/lua no canto superior direito do nav, ao lado do toggle PT/EN.
 - **Persistência**: a escolha explícita é guardada em `localStorage` sob a chave `ariel.theme` (valores: `dark` | `light`).
 - **Sem flash**: um script inline no `<head>` aplica o tema antes do primeiro paint.

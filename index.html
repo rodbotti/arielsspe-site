@@ -28,14 +28,13 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
 <script>
-  /* Set theme before paint to prevent flash */
+  /* Set theme before paint to prevent flash. Default = light. */
   (function () {
     try {
       var saved = localStorage.getItem("ariel.theme");
-      var prefers = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
-      document.documentElement.setAttribute("data-theme", saved || prefers);
+      document.documentElement.setAttribute("data-theme", saved || "light");
     } catch (e) {
-      document.documentElement.setAttribute("data-theme", "dark");
+      document.documentElement.setAttribute("data-theme", "light");
     }
   })();
 </script>
