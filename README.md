@@ -1,6 +1,6 @@
 # arielsspe.com
 
-Landing page institucional da **Ariel Seguradora de Propósito Específico**.
+Landing page institucional da **Ariel Sociedade Seguradora de Propósito Específico**.
 
 Site estático, bilíngue (PT-BR / EN), com tema claro e escuro.
 Sem frameworks, sem build step.
@@ -127,7 +127,7 @@ Acessar: http://localhost:5500
 - **Tema.** Dark e light com a mesma força de marca. Verde-escuro é fundo dos pilares em ambos os modos — arquitetura consistente.
 - **Movimento.** Apenas `fade-up` em scroll. Respeita `prefers-reduced-motion`.
 - **Diagrama.** SVG inline desenhado à mão, com classes para re-tingir por tema.
-- **Naming.** Wordmark = "Ariel". Compacto = "Ariel SSPE". Legal = "Ariel Seguradora de Propósito Específico S.A."
+- **Naming.** Wordmark = "Ariel". Compacto = "Ariel SSPE". Legal = "Ariel Sociedade Seguradora de Propósito Específico S.A."
 
 ---
 
