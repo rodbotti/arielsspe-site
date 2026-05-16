@@ -113,7 +113,7 @@ The LRS flow diagram in `.diagram` is **inline SVG hand-drawn for this site**, n
 - **Real LinkedIn URL** for the company — `linkedin.com/company/ariel-sspe/` is placeholder, page may not yet exist; appears 4× in `index.html` and 4× in `en.html`
 - **Bios for Aline and Eduardo** drafted from the Project Poseidon PDF — pending their sign-off
 - **Privacy Policy / Terms of Use / LGPD** pages — currently `#` placeholders in footer
-- **Email `contato@arielsspe.com`** mailbox is live (Microsoft 365). Formspree submissions now route there. **Pending**: SPF still says `include:secureserver.net` (GoDaddy legacy) — needs to be `include:spf.protection.outlook.com` for outbound mail to authenticate. Also no DKIM selectors set up in M365 yet. Until fixed, replies sent from `contato@arielsspe.com` may be flagged as spam by Gmail and other strict receivers.
+- **Email `contato@arielsspe.com`** mailbox is live (Microsoft 365). Formspree submissions route there. SPF and DKIM are both correctly configured (fixed on 2026-05-16): SPF includes `spf.protection.outlook.com`, DKIM selector1 has an active key in DNS, DMARC stays at `p=quarantine`. Outbound mail from this address authenticates correctly at Gmail and other strict receivers. GoDaddy quirk noted: their DNS validator rejects CNAMEs whose target ends in the `.microsoft` TLD; workaround is to add a trailing dot to the value.
 - **Real CNPJ + address** — placeholders were removed from the footer pending real values
 - **Full SUSEP operating authorization** (the homologation in progress)
 
