@@ -113,7 +113,7 @@ The LRS flow diagram in `.diagram` is **inline SVG hand-drawn for this site**, n
 - **Real LinkedIn URL** for the company — `linkedin.com/company/ariel-sspe/` is placeholder, page may not yet exist; appears 4× in `index.html` and 4× in `en.html`
 - **Bios for Aline and Eduardo** drafted from the Project Poseidon PDF — pending their sign-off
 - **Privacy Policy / Terms of Use / LGPD** pages — currently `#` placeholders in footer
-- **Email `contato@arielsspe.com`** not yet configured (legacy MX records on the domain still point to Mailgun)
+- **Email `contato@arielsspe.com`** mailbox infrastructure exists (MX → `arielsspe-com.mail.protection.outlook.com`, i.e., Microsoft 365). Pending: ensuring Formspree notifications route there — by default Formspree sends to the signup email; need to add `contato@arielsspe.com` as recipient in form Settings and verify it.
 - **Real CNPJ + address** — placeholders were removed from the footer pending real values
 - **Full SUSEP operating authorization** (the homologation in progress)
 
