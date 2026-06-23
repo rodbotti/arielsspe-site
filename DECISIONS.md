@@ -238,3 +238,17 @@ When something meaningful changes (a settled choice gets reversed, a new gotcha 
 ---
 
 *Last update: 2026-05-16. Append new decisions below this line; do not rewrite earlier entries.*
+
+---
+
+## 11. Team grew to 5 — ONE Partners now full-width on its own row (2026-05-16)
+
+**Decision.** Added **Laércio Vicente** to the team grid, between Eduardo and Rodrigo. Subtitle: "Co-fundador · Executivo" / "Co-founder · Executive". His statutory-director role at Andrina SSPE (where he participated in Brazil's first LRS issuance) is the lead credential. Bio ends with "Eleição sujeita a homologação perante a SUSEP" — same pattern as Aline's. The result is a 5-card team layout:
+
+- Row 1: Aline (left) · Eduardo (right)
+- Row 2: Laércio (left) · Rodrigo (right)
+- Row 3: ONE Partners — **spanning both columns, centered, max-width 56ch, text-align center**
+
+**Why ONE Partners spans full width instead of staying as a 1-column orphan card.** Letting it land naturally on row-3-left would leave a visible empty right column — looks half-built. Full-width centered treatment makes the placement feel intentional and reinforces ONE Partners' different status (institutional partner, not executive co-founder). The italic wordmark name already separates it visually; the full-width row separates it structurally.
+
+**Caveat to address later.** Laércio's LinkedIn URL on the site is a guessed slug (`linkedin.com/in/laercio-vicente`) — placeholder pending his actual URL. Same pattern we used for Rodrigo's slug (later confirmed). Fix in both `index.html` and `en.html` when the real URL is known.
