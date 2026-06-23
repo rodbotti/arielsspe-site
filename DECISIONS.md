@@ -251,4 +251,14 @@ When something meaningful changes (a settled choice gets reversed, a new gotcha 
 
 **Why ONE Partners spans full width instead of staying as a 1-column orphan card.** Letting it land naturally on row-3-left would leave a visible empty right column — looks half-built. Full-width centered treatment makes the placement feel intentional and reinforces ONE Partners' different status (institutional partner, not executive co-founder). The italic wordmark name already separates it visually; the full-width row separates it structurally.
 
-**Caveat to address later.** Laércio's LinkedIn URL on the site is a guessed slug (`linkedin.com/in/laercio-vicente`) — placeholder pending his actual URL. Same pattern we used for Rodrigo's slug (later confirmed). Fix in both `index.html` and `en.html` when the real URL is known.
+**Caveat (later resolved).** Laércio's LinkedIn URL was initially a guessed slug; confirmed by Rodrigo as `linkedin.com/in/laercio-vicente-73ba3432` and updated on both pages the same day.
+
+---
+
+## 12. Aline and Eduardo subtitles aligned to "· Executivo/a" (2026-05-16)
+
+**Decision.** Aline's subtitle changes from `Co-fundadora` to `Co-fundadora · Executiva`; Eduardo's from `Co-fundador` to `Co-fundador · Executivo`. EN mirrors: both become `Co-founder · Executive`. This matches Laércio's pattern and gives the executive trio visual symmetry.
+
+**Why this isn't a regression of the "no CEO/CFO" decision.** The earlier decision (section 6, item 5) stripped specific officer titles because the CEO/CFO appointments are pending SUSEP homologation. **"Executivo/Executive" is a general descriptor, not a regulated officer title** — it doesn't claim any specific role that requires SUSEP ratification. It does, however, separate the three operational co-founders (Aline, Eduardo, Laércio) from Rodrigo (`· Investidor`), which is the editorially correct signal.
+
+**Status.** Active. When SUSEP homologates the elections, the specific titles (CEO, CFO, and whatever Laércio's becomes) can replace `Executivo/a` as part of the sweep already documented in section 6.
